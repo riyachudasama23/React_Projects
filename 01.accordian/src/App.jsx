@@ -24,7 +24,6 @@ function App() {
                 className="title"
               >
                 <h3>{dataItem.question}</h3>
-                <span>v</span>
               </div>
               {selected === dataItem.id ? (
                 <div className="content">{dataItem.answer}</div>
